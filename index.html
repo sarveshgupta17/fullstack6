@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Tags</title>
+    <style>
+        *
+        {
+            padding: 0%;margin: 0%;box-sizing: border-box;
+            
+        }
+        .box1
+        {
+            width: 335px;
+            height: 400px;
+            background-color: yellow;
+            overflow: hidden;
+            text-align: justify;
+            border: 2px solid green;
+            border-radius: 10px;
+            padding: 15px;
+            margin-left: 40px;
+            margin-top: 70px;
+        }
+        .box1 h2
+        {
+            text-align: center;
+        }
+        #b2
+        {
+            background-color: hotpink;
+        }
+        #b3
+        {
+            background-color: khaki;
+        }
+        #b4
+        {
+            background-color: lightcyan;
+        }
+        .maindiv
+        {
+            display: inline-flex;
+            
+        }
+        .box1 img
+        {
+            width: 100%;
+            height: 200px;
+            padding-top: 0%;
+            border-radius: 20px;
+        }
+        .MyButton
+        {
+            display: block;
+            margin-top: 20px;
+            text-decoration: none;
+            background-color: red;
+            padding: 10px 20px;
+            color: white;
+            font-family: Arial;
+            border-radius: 15px;
+
+        }
+        .MyButton:hover
+        {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body style="background-color: lightgrey;">
+    <h1 style="color: white;text-align: center;">Practical-6: Create Following Layout using CSS Layout Properties.</h1>
+    <div class="maindiv">
+    <div class="box1">
+        <div class="image">
+            <img src="./image.png" alt="">
+
+        </div>
+        <h2>About HTML</h2>
+        <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. ...</p>
+        <div class="anchor" style="text-align: center;">
+            <a class="MyButton"  href="./aboutHT.html">Read More</a>
+
+        </div>
+    </div>
+    <div class="box1" id="b2">
+        <div class="image">
+            <img src="./css.png" alt="">
+
+        </div>
+        <h2>About CSS</h2>
+        <p>Cascading Style Sheets, fondly referred to as CSS, is a simply designed language intended to simplify the process of making web pages presentable.</p>
+        <div class="anchor" style="text-align: center;">
+            <a class="MyButton"  href="./about CSS.html">Read More</a>
+
+        </div>
+    </div>
+    <div class="box1" id="b3">
+        <div class="image">
+            <img src="./img_js.png" alt="">
+
+        </div>
+        <h2>About JS</h2>
+        <p>JavaScript  is a lightweight, interpreted, object-oriented language with first-class functions, and is best known as the scripting language for Web pages</p>
+        <div class="anchor" style="text-align: center;">
+            <a class="MyButton"  href="./about js.html">Read More</a>
+
+        </div>
+    </div>
+    <div class="box1" id="b4">
+        <div class="image">
+            <img src="./bootstrap.jfif" alt="">
+
+        </div>
+        <h2>This is a Heading</h2>
+        <p>Bootstrap is a free and open-source CSS framework directed at responsive,front-end web development.It contains CSS-JavaScript-based design templates for typography</p>
+            <div class="anchor" style="text-align: center;">
+                <a class="MyButton"  href="./about BS.html">Read More</a>
+    
+            </div>
+
+    </div>
+</div>
+    
+</body>
+</html>
